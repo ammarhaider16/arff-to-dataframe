@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='arffToDataframe',
-    version='1.0',
+    name='arffToDataFrame',
+    version='1.2',
     packages=find_packages(),
     install_requires=[
         'liac-arff>=2.5.0',
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'arffToDataframe=main:convertToDataFrame',
+            'arffToDataFrame=main:convertToDataFrame',
         ],
     },
     author='Ammar Haider',
